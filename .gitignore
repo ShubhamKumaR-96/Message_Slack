@@ -1,0 +1,94 @@
+# ================================
+# Project Specific
+# ================================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# ================================
+# Dependency directories
+# ================================
+node_modules/
+.jest/
+dist/
+build/
+coverage/
+
+# ================================
+# IDE & Editor
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ================================
+# OS generated files
+# ================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ================================
+# Logs and databases
+# ================================
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.pid
+*.pid.lock
+*.seed
+*.pid
+*.lock
+*.sqlite
+*.sql
+*.sqlite3
+
+# ================================
+# Testing
+# ================================
+/junit.xml
+/coverage/
+/nyc_output/
+
+# ================================
+# Debug
+# ================================
+debug/
+*.ilk
+*.pdb
+
+# ================================
+# Misc
+# ================================
+*.bak
+*.tmp
+*.temp
+*~
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
+
+# ================================
+# Frontend specific (if applicable)
+# ================================
+.next/
+out/
+.cache/
+.turbo/
