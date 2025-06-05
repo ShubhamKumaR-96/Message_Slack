@@ -29,6 +29,7 @@ const userSchema = new mongoose.Schema(
 userSchema.pre("save",function saveUser(next){
     const user=this;
     user.avatar=`https://robohash.org/${user.username}`
+    next()
 })
 
 const User = mongoose.model('User', userSchema);
